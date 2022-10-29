@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'ubuntu';
+    src: url("lessons/lesson_3/fonts/Ubuntu-Italic.woff2"),
+    url("lessons/lesson_3/fonts/Ubuntu-Italic.woff");
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+
+.gg {
+    border: solid green 1px;
+    color: brown;
+    text-align: center;
+}
