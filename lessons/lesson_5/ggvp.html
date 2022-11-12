@@ -16,17 +16,17 @@
             height: 50px;
         }
 
-        tr:nth-child(odd) td:nth-child(odd) {
+        .cool tr:nth-child(odd) td:nth-child(odd),
+        tr:nth-child(even) td:nth-child(even)
+         { background-color:black }
+
+         {
             background-color:black
         }
 
-        tr:nth-child(even) td:nth-child(even) {
-            background-color:black
-        }
-
-        td:first-child, td:last-child {
+        td:first-child(odd), td:last-child(odd) {
             background-color: red;
-        }
+        }   
 
         tr:first-child, tr:last-child {
             background-color: red; width: 25px; height: 25px;
@@ -39,7 +39,7 @@
     </style>
 </head>
 <body>
-    <table border="1">
+    <table class="cool" border="1">
         <tr>
         <td>1</td>
         <td>2</td>
